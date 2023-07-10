@@ -43,7 +43,7 @@ export default function Post({ post }) {
                 src={
                   user.profilePicture
                     ? PF + user.profilePicture
-                    : PF + "person/noAvatar.png"
+                    : PF + "person/noAvatar.jpg"
                 }
                 alt=""
               />
@@ -63,7 +63,7 @@ export default function Post({ post }) {
           <div className="postBottomLeft">
             <img
               className="likeIcon"
-              src={`${PF}like.png`}
+              src={`${PF}heart.png`}
               onClick={likeHandler}
               alt=""
             />

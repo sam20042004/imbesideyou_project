@@ -24,7 +24,7 @@ export default function Share() {
     };
     if (file) {
       const data = new FormData();
-      const fileName = Date.now() + file.name;
+      const fileName = new Date().toISOString + '-' + file.name;
       data.append("name", fileName);
       data.append("file", file);
       newPost.img = fileName;
@@ -48,7 +48,7 @@ export default function Share() {
             src={
               user.profilePicture
                 ? PF + user.profilePicture
-                : PF + "person/noAvatar.png"
+                : PF + "person/noAvatar.jpg"
             }
             alt=""
           />
