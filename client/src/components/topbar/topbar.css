@@ -70,6 +70,7 @@
   margin-right: 15px;
   cursor: pointer;
   position: relative;
+  text-decoration: none;
 }
 
 .topbarIconBadge {
@@ -93,6 +94,10 @@
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
+}
+
+.chatIcon{
+  color: white;
 }
 
 @media screen and (max-width: 768px)  {

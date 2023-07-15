@@ -70,6 +70,12 @@
     color: #1775ee;
 }
 
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
 .loginRegisterButton{
     width: 60%;
     align-self: center;

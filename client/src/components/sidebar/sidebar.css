@@ -52,6 +52,9 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  margin-top: 20px;
 }
 
-
+.friends{
+  color: rgb(222, 127, 12);
+}
